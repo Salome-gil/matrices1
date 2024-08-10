@@ -8,7 +8,6 @@ public class menu {
             while (seleccion != 0) {
                 System.out.println("Menu principal");
                 for (int i = 0; i < opciones.length; i++) {
-                    // System.out.println(opciones[i]+ "Opcion"+opciones[i]);
                 }
 
                 System.out.println("Seleccione el ejercicio que desea ejercutar");
