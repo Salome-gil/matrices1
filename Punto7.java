@@ -1,5 +1,5 @@
 public class Punto7{
-    public static void main(String[] args) {
+    public  void  mostrarMatrizAleatoria() {
         int [][]num;
         num = new int[5][6];
        
