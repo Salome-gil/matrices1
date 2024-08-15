@@ -6,6 +6,7 @@ public class menu {
             int[] opciones ={1,2,3,4,5,6,7,8,9,10,11};
             Punto9  p9 = new Punto9();
             Punto7 p7 = new Punto7();
+            Punto4 p4 = new punto4();
 
             int seleccion =-1;
             while (seleccion != 0) {
@@ -33,6 +34,7 @@ public class menu {
                         case 3:
                             break;
                         case 4:
+                        p4.sumacolumnas();
                             break;
                         case 5:
                             break;

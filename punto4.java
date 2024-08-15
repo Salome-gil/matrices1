@@ -1,6 +1,7 @@
-public class punto4 {
-    public static void punto4() {
-        int[][] matriz = new int[10][10];
+public class Punto4 {
+    public void sumacolumnas() {
+        int[][]matriz;
+        matriz = new int[10][10];
    
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
