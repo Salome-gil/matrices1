@@ -11,6 +11,7 @@ public class menu {
             Punto7 p7 = new Punto7();
             Punto4 p4 = new Punto4();
             Punto2 p2 = new Punto2();
+            Punto3 p3 = new Punto3();
 
             int seleccion = -1;
             while (seleccion != 0) {
@@ -32,12 +33,13 @@ public class menu {
                         System.exit(0);
                         break;
                     case 1:
-                        System.out.println(p1.punto1());    
+                        System.out.println(p1.punto1());
                         break;
                     case 2:
                         p2.ElPunto2(dim);
                         break;
                     case 3:
+                        p3.ejercicio3(dim);
                         break;
                     case 4:
                         p4.sumacolumnas();
