@@ -1,7 +1,8 @@
 public class Punto3 {
     public void ejercicio3(){
+        LLenarMatriz ll = new LLenarMatriz();
         int tam = 5;
-        int [][] matriz3 = llenarMatriz(tam);
+        int [][] matriz3 = ll.llenarMatriz(tam);
         int [] sumFilas = new int[tam];
         int [] sumColumnas = new int [tam];
         int sumaF, sumaC;

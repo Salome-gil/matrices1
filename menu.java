@@ -5,9 +5,9 @@ public class menu {
         Scanner sc = new Scanner(System.in);{
             int[] opciones ={1,2,3,4,5,6,7,8,9,10,11};
             Punto1 p1 = new Punto1();
-            Punto9  p9 = new Punto9();
+            Punto9 p9 = new Punto9();
             Punto7 p7 = new Punto7();
-            Punto4 p4 = new punto4();
+            Punto4 p4 = new Punto4();
 
             int seleccion =-1;
             while (seleccion != 0) {
