@@ -1,6 +1,7 @@
-public class Punto1 extends LLenarMatriz{
+public class Punto1 {
 
-    int[][] matriz = llenarMatriz(6);
+    LLenarMatriz ll = new LLenarMatriz();
+    int[][] matriz = ll.llenarMatriz(6);
 
     public int punto1(){
 
