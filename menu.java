@@ -53,7 +53,7 @@ public class menu {
                         break;
                     case 9:
                         int result = p9.maximon(dim);
-                        System.out.println("el numero mayor en la matriz es :" + result);
+                        System.out.println("el numerito de la matriz es  :" + result);
                         break;
                     case 10:
                         break;
