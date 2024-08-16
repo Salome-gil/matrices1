@@ -32,7 +32,7 @@ public class menu {
                         System.exit(0);
                         break;
                     case 1:
-                        p1.punto1();
+                        System.out.println(p1.punto1());    
                         break;
                     case 2:
                         p2.ElPunto2(dim);
