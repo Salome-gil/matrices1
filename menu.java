@@ -11,6 +11,7 @@ public class menu {
             Punto7 p7 = new Punto7();
             Punto4 p4 = new Punto4();
             Punto2 p2 = new Punto2();
+            Punto9_1 p12 = new Punto9_1();
 
             int seleccion = -1;
             while (seleccion != 0) {
@@ -58,6 +59,9 @@ public class menu {
                     case 10:
                         break;
                     case 11:
+                        break;
+                    case 12:
+                        p12.Punto9(dim);
                         break;
                     default:
                         System.out.println("Opcion no valida");
