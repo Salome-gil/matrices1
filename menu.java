@@ -12,6 +12,7 @@ public class menu {
             Punto4 p4 = new Punto4();
             Punto2 p2 = new Punto2();
             Punto3 p3 = new Punto3();
+            Punto5 p5 = new Punto5();
 
             int seleccion = -1;
             while (seleccion != 0) {
@@ -45,6 +46,12 @@ public class menu {
                         p4.sumacolumnas();
                         break;
                     case 5:
+
+                        int[] vec = new int[dim * dim];
+                        vec = p5.DevolverVec(dim);
+                        for (int i = 0; i < vec.length; i++) {
+                            System.out.print( "== " + vec[i]);
+                        }
                         break;
                     case 6:
                         break;
