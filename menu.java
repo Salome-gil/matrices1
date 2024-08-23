@@ -49,9 +49,11 @@ public class menu {
 
                         int[] vec = new int[dim * dim];
                         vec = p5.DevolverVec(dim);
+                        System.out.println("los elementos de la matriz son: ");
                         for (int i = 0; i < vec.length; i++) {
-                            System.out.print( "== " + vec[i]);
+                            System.out.print(vec[i] + " , ");
                         }
+                        System.out.println("");
                         break;
                     case 6:
                         break;
@@ -62,7 +64,7 @@ public class menu {
                         break;
                     case 9:
                         int result = p9.maximon(dim);
-                        System.out.println("el numerito de la matriz es  :" + result);
+                        System.out.println("el numero mayor dentro de la matriz es :" + result);
                         break;
                     case 10:
                         break;

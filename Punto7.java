@@ -34,16 +34,7 @@ public class Punto7{
  
         System.out.println("Matriz: ");
  
-        for(int i = 0; i< num.length; i++){
- 
-            for(int j = 0; j< num[i].length; j++){
- 
-                System.out.print(num[i][j] + "\t");
-           
-            }
-           System.out.println();
-           
-        }
+       
         System.out.println("\nCantidad de ceros: " + conteoCeros);
         System.out.println("Cantidad de positivos: " + conteoPositivos);
         System.out.println("Cantidad de negativos: " + conteoNegativos);

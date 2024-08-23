@@ -1,11 +1,11 @@
 public class Punto4 {
     public void sumacolumnas() {
-        int[][]matriz;
+        int[][] matriz;
         matriz = new int[10][10];
-   
+
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
-                matriz[i][j] = (int) (Math.random() * 100); 
+                matriz[i][j] = (int) (Math.random() * 100);
             }
         }
 
@@ -25,8 +25,7 @@ public class Punto4 {
             }
         }
 
-        System.out.println("\nColumna con la suma máxima: " + columnaMaxSuma);
-        System.out.println("Suma de esa columna: " + maxSuma);
+        System.out.println("\n la columna con la suma mayor es: " + columnaMaxSuma + "\n y su suma total es :" + maxSuma);
     }
 
 }
